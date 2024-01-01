@@ -1,0 +1,28 @@
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:5px 0 0 0;
+    color: #365a7a;
+}
+.next img{
+    width: 40px;
+    height: 40px;
+}
+.next .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next p{
+    margin: 3px 0;
+}
+.time,.desc,.date{
+    color: #113555;
+}
+.cart{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #113555;
+}

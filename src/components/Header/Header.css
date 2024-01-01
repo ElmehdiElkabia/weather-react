@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    color: #fff;
+}
+header .search{
+    display: flex;
+    align-items: center;
+}
+header input{
+    border: none;
+    outline: none;
+    background: aliceblue;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+header button{
+    background: cadetblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 25px;
+}

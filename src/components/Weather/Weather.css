@@ -1,0 +1,36 @@
+
+.weather{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -25px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #365a7a;
+    gap: 15px;
+}
+.weather h2{
+    font-size: 30px;
+    color:aliceblue;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.temperature{
+    font-size: 50px;
+    margin: 0 0 10px 30px;
+}
+.temp,.temp-ml,.temp-km{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.temp-ml,.temp-km,.clouds{
+    font-size: 23px;
+}
